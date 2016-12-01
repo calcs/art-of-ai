@@ -1,0 +1,52 @@
+$main_width: 1000px;
+
+.wrapper {
+    width: $main_width;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 14px;
+}
+
+header {
+    background: #469;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.8rem;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+}
+
+footer {
+    
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    margin: 20px 0 5px; 
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 2rem;
+}
